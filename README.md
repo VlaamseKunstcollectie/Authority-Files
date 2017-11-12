@@ -10,6 +10,12 @@ Authority files are lists of concepts who are uniquely identified. The lists in 
 
 * Creators. A list of local occurrences of person names, associated with authority files VIAF, Wikidata and RKD.
 
+## Scripts
+
+### viaf.pl
+
+This script fetches VIAF alternate names from a (local) RDF Linked Data Fragments server. (experimental)
+
 ## Copyright 
 
 Licensed under CC0.
