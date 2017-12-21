@@ -8,15 +8,17 @@ alcoholstifttekening,alcoholstifttekeningen,
 aquarel,aquarellen,http://vocab.getty.edu/aat/300078925
 aquatint,aquatinten,http://vocab.getty.edu/aat/300041366
 arduin,arduin,http://vocab.getty.edu/aat/300011386
+assemblage,assemblage,http://vocab.getty.edu/aat/300047194
 balpentekening,balpentekeningen,
-blauwe steen,arduin,http://vocab.getty.edu/aat/300011386
 beeldhouwkunst,beeldhouwwerken,http://vocab.getty.edu/aat/300047090
 beeldhouwwerk,beeldhouwwerken,http://vocab.getty.edu/aat/300047090
 beeldhouwwerken,beeldhouwwerken,http://vocab.getty.edu/aat/300047090
 behangpapier,behang,http://vocab.getty.edu/aat/300037366
+blauwe steen,arduin,http://vocab.getty.edu/aat/300011386
 boek,boeken,http://vocab.getty.edu/aat/300028051
 boeken,boeken,http://vocab.getty.edu/aat/300028051
 boekillustratie,illustraties,http://vocab.getty.edu/aat/300015578
+books,boeken,http://vocab.getty.edu/aat/300028051
 brief,brieven,http://vocab.getty.edu/aat/300026879
 brons,brons,http://vocab.getty.edu/aat/300010957
 brons (beeldhouwwerk),bronzen,http://vocab.getty.edu/aat/300047333
@@ -28,12 +30,14 @@ caseïneschilderij,caseïneschilderingen,
 cement,cement,http://vocab.getty.edu/aat/300010362
 clair-obscur-houtsnede,clair-obscur-houtsneden,http://vocab.getty.edu/aat/300041410
 collage,collages,http://vocab.getty.edu/aat/300033963
+collage,collages,http://vocab.getty.edu/aat/300033963
 contre-épreuve,tegenafdrukken,http://vocab.getty.edu/aat/300041321
 dekverf,dekverf,http://vocab.getty.edu/aat/300015071
 dichtbundel,dichtbundels,
 documentatie,documentatie,http://vocab.getty.edu/aat/300026685
-drogenaald,drogenaald,http://vocab.getty.edu/aat/300053228
+drawings,tekeningen,http://vocab.getty.edu/aat/300033973
 droge naald,drogenaald,http://vocab.getty.edu/aat/300053228
+drogenaald,drogenaald,http://vocab.getty.edu/aat/300053228
 drogenaaldets,drogenaald,http://vocab.getty.edu/aat/300053228
 drukwerk,drukwerk,
 eikenhout,eikenhout,http://vocab.getty.edu/aat/300012264
@@ -50,6 +54,7 @@ fotografie,foto's,http://vocab.getty.edu/aat/300046300
 fotogravure,fotogravures,http://vocab.getty.edu/aat/300154358
 fotolithografie,fotolithografieën,http://vocab.getty.edu/aat/300154386
 fresco,fresco's,http://vocab.getty.edu/aat/300177433
+furniture,meubilair,http://vocab.getty.edu/aat/300037680
 gedicht,gedichten,http://vocab.getty.edu/aat/300026451
 gemengde techniek,gemengde techniek,http://vocab.getty.edu/aat/300179099
 gessoschildering,tekstschilderingen,
@@ -78,6 +83,7 @@ houtsnede,houtsneden,http://vocab.getty.edu/aat/300041405
 houtsnede of linosnede,houtsneden,http://vocab.getty.edu/aat/300041405
 illustratie,illustraties,http://vocab.getty.edu/aat/300015578
 inkttekening,inkttekeningen,
+installations,installaties,http://vocab.getty.edu/aat/300047896
 ivoor,ivoren,http://vocab.getty.edu/aat/300047325
 Japanse prenten,Japanse prenten,
 kalksteen,kalksteen,http://vocab.getty.edu/aat/300011286
@@ -99,6 +105,7 @@ linosnede,linoleumsneden,http://vocab.getty.edu/aat/300041393
 lithografie,lithografieën,http://vocab.getty.edu/aat/300041379
 lithografie (prent),lithografieën,http://vocab.getty.edu/aat/300041379
 lithografieën,lithografieën,http://vocab.getty.edu/aat/300041379
+magazines,magazines,http://vocab.getty.edu/aat/300215389
 manifest,manifesten,http://vocab.getty.edu/aat/300026393
 manuscript,manuscripten,http://vocab.getty.edu/aat/300028569
 manuscripten,manuscripten,http://vocab.getty.edu/aat/300028569
@@ -114,11 +121,13 @@ offsetlithografie (prent),offsetlithografieën,http://vocab.getty.edu/aat/300192
 olieverfschilderij,olieverfschilderingen,http://vocab.getty.edu/aat/300033799
 olieverfschildering,olieverfschilderingen,http://vocab.getty.edu/aat/300033799
 ontwerptekening,ontwerptekeningen,http://vocab.getty.edu/aat/300069413
+paintings,schilderingen,http://vocab.getty.edu/aat/300033618
 pastel,pastels,http://vocab.getty.edu/aat/300076922
 pastel (beeldmateriaal),pastels,http://vocab.getty.edu/aat/300076922
 pen,pennen,http://vocab.getty.edu/aat/300022452
-pentekening,pentekeningen,
 penschildering,penschilderingen,
+pentekening,pentekeningen,
+photographs,foto's,http://vocab.getty.edu/aat/300046300
 plaquette,plaquettes,http://vocab.getty.edu/aat/300010262
 platinadruk,platinadrukken,http://vocab.getty.edu/aat/300127145
 pochoir,pochoir,http://vocab.getty.edu/aat/300053436
@@ -126,9 +135,12 @@ potloodtekening,potloodtekeningen,
 prent,prenten,http://vocab.getty.edu/aat/300041273
 prenten,prenten,http://vocab.getty.edu/aat/300041273
 prijsmedaille,prijsmedailles,
+printing plates,drukplaten,http://vocab.getty.edu/aat/300022755
+prints,prenten,http://vocab.getty.edu/aat/300041273
 reeks,reeksen,http://vocab.getty.edu/aat/300027349
 reliëf (object),reliëfs,http://vocab.getty.edu/aat/300047230
 reliëfets,reliëfetsen,http://vocab.getty.edu/aat/300041375
+reliefs,reliëftechniek,http://vocab.getty.edu/aat/300053622
 roulette,roulettes,http://vocab.getty.edu/aat/300221678
 sanguine,sanguines,
 schetsboek,schetsboeken,http://vocab.getty.edu/aat/300027354
@@ -137,11 +149,13 @@ schilderingen,schilderingen,http://vocab.getty.edu/aat/300033618
 schilderkunst,schilderingen,http://vocab.getty.edu/aat/300033618
 schraapstaal,schraapstalen,http://vocab.getty.edu/aat/300024092
 schrijnwerkerspotloodtekening,schrijnwerkerspotloodtekeningen,
+sculptures,beeldhouwwerken,http://vocab.getty.edu/aat/300047090
 sepiatekening,sepiatekeningen,
 steen,stenen,
 stippelgravure,stippelgravures,http://vocab.getty.edu/aat/300041364
 studie (beeldmateriaal),studies,http://vocab.getty.edu/aat/300081053
 suikeraquatint,suikeraquatint,http://vocab.getty.edu/aat/300190346
+tapestries,tapisserieën,http://vocab.getty.edu/aat/300205002
 tapijt,tapijten,http://vocab.getty.edu/aat/300185749
 tapijten,tapijten,http://vocab.getty.edu/aat/300185749
 tekening,tekeningen,http://vocab.getty.edu/aat/300033973
@@ -151,6 +165,7 @@ temperaschildering,temperaschilderingen,http://vocab.getty.edu/aat/300389785
 terracotta,terracotta,http://vocab.getty.edu/aat/300010669
 tijdschrift,tijdschriften,http://vocab.getty.edu/aat/300076922
 tijdschriften,tijdschriften,http://vocab.getty.edu/aat/300076922
+tiles,tegels,http://vocab.getty.edu/aat/300410344
 tin,tin,http://vocab.getty.edu/aat/300133748
 titelpagina,titelpagina's,http://vocab.getty.edu/aat/300055033
 toegepaste kunst,toegepaste kunst,http://vocab.getty.edu/aat/300054168
