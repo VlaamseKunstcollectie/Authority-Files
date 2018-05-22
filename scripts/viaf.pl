@@ -4,8 +4,8 @@
 # as a single CSV file. 
 #
 # Usage:
-#   perl viaf.pl --type CSV < import.csv > export.csv
-#	perl viaf.pl --type JSON < import.json > export.csv
+#   perl viaf.pl --impporter CSV import.csv > export.csv
+#	perl viaf.pl --impporter JSON import.json > export.csv
 #
 # This script will perform an RDF LDF request against the Linked Data Fragments
 # server hosted at http://data.linkeddatafragments.org/viaf. Alternatively,
@@ -30,7 +30,7 @@ use Getopt::Long;
 
 my $importer  = undef;
 
-GetOptions("fix=s" => \$fix , "importer=s" => \$importer);
+GetOptions("importer=s" => \$importer);
 my $query     = shift;
 
 unless ($query) {
@@ -61,9 +61,7 @@ binmode(STDOUT,':encoding(UTF-8)');
 &do_import();
 
 sub do_import {
-	my $fix		= shift;
 	my $query	= shift;
-	my $fixer;
 
 	my $exporter = Catmandu->exporter('CSV');
 
