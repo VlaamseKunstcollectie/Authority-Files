@@ -69,10 +69,27 @@ sub do_import {
 		my $item	= shift;
 		my $uri		= $item->{viaf_uri};
 
-		if (defined $uri) {
-			$item->{alternate_name} = &viaf_get_id($uri);	
+		if ($uri =~ /^http\:\/\/viaf.org\/viaf\/[0-9]*/) {
+            my $person = &viaf_get_id($uri);
+
+            # my $viaf_alternate;
+            # if (ref($person->{'http://schema.org/alternateName'}) eq 'ARRAY') {
+            #     $viaf_alternate = join('; ', @{$person->{'http://schema.org/alternateName'}});
+            # } else {
+            #     $viaf_alternate = $person->{'http://schema.org/alternateName'};
+            # }
+
+			# $item->{viaf_alternate} = $viaf_alternate;
+
+            my $dob = $person->{'http://schema.org/birthDate'};
+            my $dod = $person->{'http://schema.org/deathDate'};
+
+            $item->{viaf_birth} = (ref($dob) eq 'ARRAY') ? pop @{$dob} : $dob;
+            $item->{viaf_death} = (ref($dod) eq 'ARRAY') ? pop @{$dod} : $dod;
 		} else {
-			$item->{alternate_name} = '';
+			# $item->{viaf_alternate} = '';
+            $item->{viaf_birth} = '';
+            $item->{viaf_death} = '';
 		}
 
 		$exporter->add($item);
@@ -94,14 +111,27 @@ sub viaf_get_id {
 
 sub ldf_query {
     my $subject = shift;
-    my $it = $client->get_statements($subject, 'http://schema.org/alternateName', undef);
+    my $it = $client->get_statements($subject, undef, undef);
 
-    my @res = ();
+    use Data::Dumper;
+
+    my $triples = {};    
     while (my $st = $it->()) {
-        push @res, $st->object->literal_value;
+        if (exists($triples->{$st->predicate->value})) {
+            if (ref($triples->{$st->predicate->value}) eq 'ARRAY') {
+                push @{$triples->{$st->predicate->value}}, $st->object->value;
+            } else {
+                my @property = ();
+                push @property, $triples->{$st->predicate->value};
+                push @property, $st->object->value;
+                $triples->{$st->predicate->value} = [ @property ];
+            }
+        } else {
+            $triples->{$st->predicate->value} = $st->object->value;    
+        }
     }
 
-    return join(';', @res);
+    return $triples;
 }
 
 	
